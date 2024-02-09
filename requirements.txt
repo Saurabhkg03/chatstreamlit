@@ -9,3 +9,4 @@ langchain
 sentence_transformers
 -U docarray
 pydantic==1.10.9
+langchain[docarray]
