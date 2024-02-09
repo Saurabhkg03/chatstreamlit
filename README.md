@@ -3,6 +3,6 @@ install dependencies using-
 
 
 run this app using-
-```streamlit run chatstreamlit.py```
+```streamlit run chat2.py```
 
 run the index.html file with live server to see the chatbot website
