@@ -7,6 +7,6 @@ openai
 pypdf
 langchain
 sentence_transformers
-pip3  install -U docarray
+docarray -U
 pydantic==1.10.9
 langchain[docarray]
