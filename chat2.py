@@ -84,8 +84,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     llm, retriever=retriever, memory=memory, verbose=True
 )
 
-if len(msgs.messages) == 0 or st.sidebar.button("Clear message history"):
-    msgs.clear()
+if len(msgs.messages) == 0:
     msgs.add_ai_message("How can I help you?")
 
 avatars = {"human": "user", "ai": "assistant"}
