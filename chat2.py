@@ -76,7 +76,7 @@ retriever = configure_retriever(PDF_FILES_DIRECTORY)
 msgs = StreamlitChatMessageHistory()
 memory = ConversationBufferMemory(memory_key="chat_history", chat_memory=msgs, return_messages=True)
 
-openai_api_key = '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'  # Replace with your actual OpenAI API key
+openai_api_key = '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'  # Replace with your actual OpenAI API key
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo", openai_api_key=openai_api_key, temperature=0, streaming=True
 )
