@@ -2,6 +2,6 @@ streamlit
 langchain-openai
 langchain-community
 transformers
-pytorch
+torch
 openai
 pypdf
