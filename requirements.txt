@@ -6,3 +6,4 @@ torch
 openai
 pypdf
 langchain
+sentence_transformers
