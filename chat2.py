@@ -11,8 +11,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-st.set_page_config(page_title="LangChain: Documents Data", page_icon="🦜")
-st.title("🦜 LangChain: Documents Data")
+st.set_page_config(page_title="StailaBot")
+st.title("StailaBot")
 
 PDF_FILES_DIRECTORY = 'documents'
   # Update this path to the folder containing your PDF files
@@ -76,7 +76,7 @@ retriever = configure_retriever(PDF_FILES_DIRECTORY)
 msgs = StreamlitChatMessageHistory()
 memory = ConversationBufferMemory(memory_key="chat_history", chat_memory=msgs, return_messages=True)
 
-openai_api_key = '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'  # Replace with your actual OpenAI API key
+openai_api_key = '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'  # Replace with your actual OpenAI API key
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo", openai_api_key=openai_api_key, temperature=0, streaming=True
 )
