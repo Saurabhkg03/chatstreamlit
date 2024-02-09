@@ -14,7 +14,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 st.set_page_config(page_title="LangChain: Documents Data", page_icon="🦜")
 st.title("🦜 LangChain: Documents Data")
 
-PDF_FILES_DIRECTORY = '/documents'
+PDF_FILES_DIRECTORY = 'documents'
   # Update this path to the folder containing your PDF files
 
 @st.cache_resource(ttl=3600)
